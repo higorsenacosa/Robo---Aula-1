@@ -17,7 +17,7 @@ class ActionPedirMusica(Action):
             "Alejandro": "https://www.youtube.com/watch?v=niqrrmev4mA",
             "Bad Romance": "https://www.youtube.com/watch?v=qrO4YZeyl0I",
             "Poker Face": "https://www.youtube.com/watch?v=bESGLojNYSo",
-            "Judas": "https://www.youtube.com/watch?v=7Nr33m1zXVE",
+            "Judas": "https://www.youtube.com/watch?v=wagn8Wrmzuc",
             "Shallow": "https://www.youtube.com/watch?v=bo_efYhYU2A",
             "Rain On Me": "https://www.youtube.com/watch?v=AoAm4om0wTs",
             "Born This Way": "https://www.youtube.com/watch?v=wV1FrqwZyKw",
