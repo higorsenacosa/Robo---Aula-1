@@ -1,0 +1,14 @@
+version: "3.1"
+
+stories:
+- story: apenas_saudacao
+  steps:
+    - intent: saudacoes
+    - action: utter_saudacoes
+
+- story: saudacao_seguida_de_musica
+  steps:
+    - intent: saudacoes
+    - action: utter_saudacoes
+    - intent: pedir_musica
+    - action: action_pedir_musica

@@ -1,0 +1,108 @@
+version: "3.1"
+
+nlu:
+- intent: saudacoes
+  examples: |
+    - oi
+    - olá
+    - bom dia
+    - boa tarde
+    - boa noite
+    - e aí
+    - fala aí
+    - tudo bem?
+    - como vai?
+    - oi, tudo bem?
+    - salve
+    - opa
+    - beleza?
+    - como você está?
+    - oi bot
+    - olá, tudo certo?
+    
+- intent: despedida
+  examples: |
+    - tchau
+    - até mais
+    - até logo
+    - adeus
+    - falou
+    - até a próxima
+    - fui
+    - valeu, até mais
+    - nos vemos depois
+    - até breve
+    - xau
+    - vou nessa
+    - preciso ir
+    - até!
+    - boa noite, vou dormir
+
+- intent: afirmacao
+  examples: |
+    - sim
+    - claro
+    - com certeza
+    - pode ser
+    - isso mesmo
+    - está certo
+    - exatamente
+    - correto
+    - ok
+    - afirmativo
+    - sim, por favor
+    - sim, quero
+    - verdade
+    - positivo
+    - é isso
+
+- intent: negacao
+  examples: |
+    - não
+    - de jeito nenhum
+    - negativo
+    - nunca
+    - nada disso
+    - nem pensar
+    - tá errado
+    - não quero
+    - não é isso
+    - errado
+    - nem
+    - claro que não
+    - tá louco
+    - nopes
+    - nope
+    - n
+    - ñ
+    - nunca
+    - não achei legal
+    - não mesmo
+    - serio?
+    - sério?
+
+- intent: informar_nome
+  examples: |
+    - meu nome é [João](nome)
+    - eu sou a [Carla](nome)
+    - me chamo [Lucas](nome)
+    - pode me chamar de [Ana](nome)
+    - meu nome é [Fernanda](nome)
+    - sou o [Felipe](nome)
+    - me chamo [Roberta](nome)
+    - meu nome é [Paulo](nome)
+    - eu sou [Juliana](nome)
+    - meu nome é [Rafael](nome)
+
+- intent: pedir_musica
+  examples: |
+    - quero ouvir [alejandro](musica)
+    - toque [bad romance](musica)
+    - me mostre a música [poker face](musica)
+    - quero escutar [judas](musica)
+    - coloque a música [shallow](musica)
+    - quero ouvir [rain on me](musica)
+    - toque [born this way](musica)
+    - me mostre a música [just dance](musica)
+    - quero escutar [paparazzi](musica)
+    - coloque a música [telephone](musica)
